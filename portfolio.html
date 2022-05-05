@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body class="header">
+    <nav>
+      <a href="index.html"
+        ><img src="/images/Ak-logo1.png" alt="AK-logo" />
+        <h1>ABDULHAKEEM<br />KAKA</h1></a
+      >
+      <div class="nav-bar" id="navBar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/gallary.html">Gallary</a></li>
+          <li><a href="/About.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="project">
+      <h1>PORTFOLIO</h1>
+      <div class="project">
+        <img
+          src="https://www.bangor.ac.uk/sites/default/files/styles/16x9_1400w/public/2021-11/Fallback%20image.webp?h=48c1e61c&itok=jQSFOzaV"
+          width="100%"
+          alt="background-image"
+        />
+        <ul>
+          <li>
+            <a href="https://abkayus.github.io/universitiesireland/"
+              ><img src="/images/scholarships.jpg" width="150" alt="" />
+              <h2>Universitiesireland</h2></a
+            >
+          </li>
+          <li>
+            <a href="https://abkayus.github.io/scholarsatrisk/"
+              ><img src="/images/scholars.png" width="150" alt="scholars" />
+              <h2>Scholarsatrisk</h2></a
+            >
+          </li>
+          <li>
+            <a href="https://abkayus.github.io/lakewoodmedicals/"
+              ><img
+                src="/images/Image-empty-state.webp"
+                width="150"
+                alt="lakewoodmedicals"
+              />
+              <h2>Lakewoodmedicals</h2></a
+            >
+          </li>
+          <li>
+            <a href="https://abkayus.github.io/portfolio-page/"
+              ><img
+                src="https://img.freepik.com/free-vector/code-logo-template-gradient-design_23-2148810395.jpg"
+                width="150"
+                alt="portfolio-page"
+              />
+              <h2>Portfolio-page</h2></a
+            >
+          </li>
+          <li id="google">
+            <a href="https://abkayus.github.io/googledemo/"
+              ><img
+                src="/images/google_image1.png"
+                width="150"
+                height="150"
+                alt=""
+              />
+              <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGoogle</h2></a
+            >
+          </li>
+          <li>
+            <a href="https://abkayus.github.io/leefakinodemo/"
+              ><img src="/images/leefakino.png" width="150" alt="leefakino" />
+              <h2>&nbsp&nbsp&nbspLeefakino</h2></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <div id="h5">
+        <h5>&copy 2022 - ABDULHAKEEMKAKA.ALL RIGHTS RESERVED.</h5>
+      </div>
+      <div id="h6">
+        <h6 id="web">Web Design By Website ABkayus.</h6>
+      </div>
+    </div>
+
+    <!-- javaScript for Toggle Menu -->
+    <script>
+      var navBar = document.getElementById("navBar");
+      function showMenu() {
+        navBar.style.right = "0";
+      }
+      function hideMenu() {
+        navBar.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
