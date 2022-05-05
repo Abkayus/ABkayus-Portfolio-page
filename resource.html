@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body class="header">
+    <nav>
+      <a href="index.html"
+        ><img src="/images/Ak-logo1.png" alt="AK-logo" />
+        <h1>ABDULHAKEEM<br />KAKA</h1></a
+      >
+      <div class="nav-bar" id="navBar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/gallary.html">Gallary</a></li>
+          <li><a href="/About.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="resource">
+      <u>
+        <li>
+          <a href="https://code.visualstudio.com/download#" target="_blank"
+            ><img src="/images/vscode.jpg" alt="vscode" />
+          </a>
+          <h2>Visual Studio Code</h2>
+        </li>
+        <li>
+          <a href="https://git-scm.com/download/win" target="_blank"
+            ><img src="/images/Git GUI Clients.webp" width="300" alt="git gui"
+          /></a>
+          <h2>Git GUI Cients</h2>
+        </li>
+        <li>
+          <a
+            href="https://slack.com/intl/en-ca/downloads/windows"
+            target="_blank"
+            ><img src="/images/slack_logo.webp" width="300" alt="slack" />
+          </a>
+          <h2 id="slack">slack</h2>
+        </li>
+        <li>
+          <a href="https://wa.me/message/7DRFU5B3BNA2M1" target="_blank"
+            ><img src="/images/whatsapp.jpg" width="300" alt="whatzapp" />
+          </a>
+          <h2>Whatzapp Web</h2>
+        </li>
+      </u>
+    </div>
+    <div class="copy">
+      <div id="h5">
+        <h5>&copy 2022 - ABDULHAKEEMKAKA.ALL RIGHTS RESERVED.</h5>
+      </div>
+      <div id="h6">
+        <h6 id="web">Web Design By Website ABkayus.</h6>
+      </div>
+    </div>
+
+    <!-- javaScript for Toggle Menu -->
+    <script>
+      var navBar = document.getElementById("navBar");
+      function showMenu() {
+        navBar.style.right = "0";
+      }
+      function hideMenu() {
+        navBar.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
