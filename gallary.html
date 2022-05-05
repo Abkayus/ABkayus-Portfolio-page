@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body class="header">
+    <nav>
+      <a href="index.html"
+        ><img src="/images/Ak-logo1.png" alt="AK-logo" />
+        <h1>ABDULHAKEEM<br />KAKA</h1></a
+      >
+      <div class="nav-bar" id="navBar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+          <li><a href="/projects.html">Portfolio</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="#">Gallary</a></li>
+          <li><a href="/About.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="gallary">
+      <ul>
+        <li><img src="/images/Ak-logo2.jpg" alt="logo" /></li>
+        <li><img src="/images/leefakino.png" alt="leefakino" /></li>
+        <li><img src="/images/profile-image2.jpg" alt="img1" /></li>
+        <li><img src="/images/profile-image4.jpg" alt="img2" /></li>
+        <li><img src="/images/workplace.jpeg" alt="workplace" /></li>
+        <li><img src="/images/AK-logo.jpg" alt="logo1" /></li>
+        <li><img src="/images/codepen.webp" alt="codepen" /></li>
+        <li><img src="/images/profile-image.jpg" alt="img2" /></li>
+        <li><img src="/images/download.jpg" alt="download" /></li>
+        <li><img src="/images/GitHub-icon.png" alt="github" /></li>
+        <li><img src="/images/vscode.jpg" alt="vscode" /></li>
+        <li><img src="/images/charles.jpg" alt="charles" /></li>
+        <li><img src="/images/chuks.jpg" alt="chuks" /></li>
+        <li><img src="/images/download2.jpg" alt="download2" /></li>
+        <li><img src="/images/download1.jpg" alt="download1" /></li>
+      </ul>
+    </div>
+    <div class="copy">
+      <div id="h5">
+        <h5>&copy 2022 - ABDULHAKEEMKAKA.ALL RIGHTS RESERVED.</h5>
+      </div>
+      <div id="h6">
+        <h6 id="web">Web Design By Website ABkayus.</h6>
+      </div>
+    </div>
+
+    <!-- javaScript for Toggle Menu -->
+    <script>
+      var navBar = document.getElementById("navBar");
+      function showMenu() {
+        navBar.style.right = "0";
+      }
+      function hideMenu() {
+        navBar.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
