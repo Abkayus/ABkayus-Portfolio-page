@@ -340,6 +340,9 @@ nav .fa {
     text-indent: 20px;
     text-align-last: center;
 }
+.overflow{
+    width: 85%;
+}
 #welcome li button {
     padding: 10px 50px;
     margin-left: 45px;
