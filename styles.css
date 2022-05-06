@@ -308,7 +308,7 @@ nav .fa {
 #welcome ul {
     display: inline-flex;
     margin-left: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #welcome li {
@@ -336,12 +336,12 @@ nav .fa {
     line-height: 1.25em;
     padding-bottom: 10px;
     width: 80%;
-    text-indent: 30px;
+    text-indent: 20px;
     text-align-last: center;
 }
 #welcome li button {
     padding: 10px 50px;
-    margin-left: 50px;
+    margin-left: 45px;
     font-weight: bold;
 }
 #welcome button:hover {
