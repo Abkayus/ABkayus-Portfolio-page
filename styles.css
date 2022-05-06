@@ -406,11 +406,6 @@ nav .fa {
         font-weight: bold;
     }
 }
-    #welcome ul {
-        display: inline;
-        height: 200vh;
-    }
-}
 .About {
     display: inline-flex;
 }
