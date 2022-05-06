@@ -273,19 +273,6 @@ nav .fa {
         height: 220vh;
     }
 }
-@media only screen and (min-width: 480px) {
- nav a h1 {
-        text-align: center;
-        left: 130px;
-    }
-    .gallary {
-        height: 880vh;
-    }
-
-    .resource {
-        height: 300vh;
-    }   
-}
 .button {
     background-color: rgb(0, 0, 0);
     float: right;
@@ -422,12 +409,6 @@ nav .fa {
         font-weight: bold;
     }
 }
-@media only screen and (min-width: 480px) {
-  #welcome {
-        position: relative;
-        padding-bottom: 10px;
-    }
-
     #welcome ul {
         display: inline;
         height: 200vh;
@@ -1126,12 +1107,6 @@ nav .fa {
         background-color: #009688;
     }
 }
-@media only screen and (min-width: 480px) {
-  .resume {
-        background-color: rgb(169, 168, 168);
-        height: 3000px;
-    }
-}
 .project {
     display: grid;
     background-color: goldenrod;
@@ -1542,12 +1517,5 @@ nav .fa {
     #h6 {
         padding-left: 0;
         font-size: 1em;
-    }
-}
-@media only screen and (min-width: 480px) {
-.testimonials {
-        height: 250vh;
-        padding-top: 30px;
-    padding-bottom: 20px;
     }
 }
