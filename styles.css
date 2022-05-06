@@ -338,14 +338,17 @@ nav .fa {
     width: 80%;
     text-indent: 30px;
     text-align-last: center;
+    white-space: nowrap;
+    overflow: hidden; 
 }
-
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
 #welcome li button {
     padding: 10px 50px;
     margin-left: 50px;
     font-weight: bold;
 }
-
 #welcome button:hover {
     cursor: pointer;
     color: goldenrod;
