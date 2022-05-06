@@ -344,9 +344,6 @@ nav .fa {
 .overflow-ellipsis {
   text-overflow: ellipsis;
 }
-.ltr > p {
-  direction: ltr;
-}
 #welcome li button {
     padding: 10px 50px;
     margin-left: 50px;
