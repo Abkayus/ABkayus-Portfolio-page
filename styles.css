@@ -348,9 +348,6 @@ nav .fa {
     width: 80%;
     text-align-last: center;
 }
-.overflow{
-    width: 95%;
-}
 #welcome li button {
     padding: 10px 50px;
     margin-left: 45px;
@@ -1216,11 +1213,6 @@ nav .fa {
 
     .resource h2 {
         margin-left: 60px;
-    }
-}
-@media screen and (min-width: 480px) {
-.services ul {
-        height: 200vh;
     }
 }
 .footer {
