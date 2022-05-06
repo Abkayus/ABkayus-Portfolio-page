@@ -291,7 +291,11 @@ nav .fa {
     font-size: 1.25em;
     color: white;
 }
-
+#btn1:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: grey;
+}
 #btn2 {
     padding: 10px 15px;
     background-color: rgb(55, 54, 54);
@@ -299,7 +303,11 @@ nav .fa {
     margin-right: 20px;
     color: white;
 }
-
+#btn2:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: grey;
+}
 #welcome {
     position: relative;
     padding-bottom: 10px;
