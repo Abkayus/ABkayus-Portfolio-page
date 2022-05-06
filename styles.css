@@ -462,7 +462,53 @@ nav .fa {
         font-weight: bold;
     }
 }
+@media screen and (min-width: 480px) {
+  #welcome {
+        position: relative;
+        padding-bottom: 10px;
+    }
 
+    #welcome ul {
+        display: inline;
+        height: 200vh;
+    }
+
+    #welcome ul li {
+        list-style: none;
+        text-align: center;
+    }
+
+    #welcome ul img {
+        border: solid;
+        height: 200px;
+        border-radius: 50%;
+        justify-items: auto;
+        color: gray;
+    }
+
+    #welcome h5 {
+        padding-top: 10px;
+        padding-left: 10px;
+        font: 1.25em sans-serif;
+        font-weight: bold;
+        color: goldenrod;
+    }
+
+    #welcome li p {
+        line-height: 1.25em;
+        padding-bottom: 10px;
+        margin-left: 30px;
+        width: 65%;
+        text-indent: 10px;
+        text-align-last: center;
+    }
+
+    #welcome li button {
+        padding: 5px 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }   
+}
 .About {
     display: inline-flex;
 }
@@ -608,7 +654,49 @@ nav .fa {
         padding-left: 50px;
     }
 }
+@media screen and (min-width: 480px) {
+ .About {
+        display: inline-flex;
+    }
 
+    .About h1 {
+        padding-left: 10px;
+        padding-top: 330px;
+    }
+
+    .About h2 {
+        padding-left: 200px;
+    }
+
+    .image {
+        padding-left: 30px;
+    }
+
+    .home {
+        padding-left: 0px;
+    }
+
+    .home button {
+        padding: 10px 20px;
+    }
+
+    .main {
+        display: inline;
+    }
+
+    #left {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    #left p {
+        padding-right: 10px;
+    }
+
+    #right ul {
+        padding-left: 10px;
+    }    
+}
 .resume {
     background-color: rgb(217, 213, 213);
     height: 1560px;
@@ -1157,7 +1245,89 @@ nav .fa {
         background-color: #009688;
     }
 }
+@media screen and (min-width: 480px) {
+  .resume {
+        background-color: rgb(169, 168, 168);
+        height: 3000px;
+    }
 
+    .main-span {
+        position: relative;
+        display: inline;
+        margin-left: -35px;
+    }
+
+    .hr-new9 {
+        margin-top: 150px;
+    }
+
+    .hr-new2 {
+        margin-top: 250px;
+    }
+
+    .hr-new4 {
+        margin-top: 200px;
+    }
+
+    .hr-new11 {
+        margin-top: 255px;
+    }
+
+    .hr-new13 {
+        margin-top: 255px;
+    }
+
+    .circle-new3 {
+        margin-left: -45px;
+    }
+
+    .circle-new4 {
+        margin-left: -45px;
+    }
+
+    .circle-new5 {
+        margin-left: -45px;
+    }
+
+    .circle-new6 {
+        margin-left: -45px;
+    }
+
+    .hr-new15 {
+        margin-top: 600px;
+    }
+
+    .hr-new18 {
+        margin-top: 750px;
+    }
+
+    .skills {
+        padding-top: 20px;
+        position: relative;
+        width: 85%;
+    }
+
+    .general {
+        padding-top: 30px;
+        width: 70%;
+        position: relative;
+    }
+
+    #download {
+        position: relative;
+        left: 150px;
+        margin-top: 0px;
+        padding-bottom: 45px;
+    }
+
+    #download button {
+        padding: 5px 20px;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+        background-color: #009688;
+    }  
+}
 .project {
     display: grid;
     background-color: goldenrod;
@@ -1269,7 +1439,20 @@ nav .fa {
         margin-left: 60px;
     }
 }
+@media screen and (min-width: 480px) {
+.services ul {
+        display: inline;
+        padding-left: 10px;
+    }
 
+    .resource img {
+        margin-left: 50px;
+    }
+
+    .resource h2 {
+        margin-left: 40px;
+    }
+}
 .footer {
     min-height: 100vh;
     width: 100%;
@@ -1553,6 +1736,114 @@ nav .fa {
     .copy {
         display: inline;
         line-height: 0.5em;
+        width: 100%;
+        background-color: grey;
+    }
+
+    #h5 {
+        font-size: 12px;
+    }
+
+    #h6 {
+        padding-left: 0;
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 480px) {
+.testimonials {
+        display: inline-block;
+        width: 100%;
+        height: 250vh;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #decade {
+        margin-left: 10px;
+        margin-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 6px;
+        width: 80%;
+    }
+
+    .image1 {
+        padding-left: 23%;
+    }
+
+    #decade h4 {
+        padding-left: 120px;
+        padding-bottom: 15px;
+    }
+
+    #decade h5 {
+        padding-left: 130px;
+        padding-bottom: 10px;
+    }
+
+    #decade p {
+        padding-bottom: 10px;
+        text-indent: 0;
+    }
+
+    #bursaries {
+        margin-left: 10px;
+        margin-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 6px;
+        width: 80%;
+    }
+
+    .image2 {
+        margin-top: -40px;
+        padding-left: 23%;
+    }
+
+    #bursaries h4 {
+        padding-left: 120px;
+        padding-bottom: 15px;
+    }
+
+    #bursaries h5 {
+        padding-left: 130px;
+        padding-bottom: 10px;
+    }
+
+    #bursaries p {
+        padding-bottom: 10px;
+        text-indent: 0;
+    }
+
+    #scholars {
+        margin-left: 10px;
+        margin-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 6px;
+        width: 80%;
+    }
+
+    .image3 {
+        margin-top: -40px;
+        padding-left: 23%;
+    }
+
+    #scholars h4 {
+        padding-left: 120px;
+        padding-bottom: 15px;
+    }
+
+    #scholars h5 {
+        padding-left: 130px;
+        padding-bottom: 10px;
+    }
+
+    #scholars p {
+        padding-bottom: 10px;
+        text-indent: 0;
+    }
+
+    .copy {
+        display: inline;
+        line-height: 1em;
         width: 100%;
         background-color: grey;
     }
