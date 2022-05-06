@@ -338,14 +338,6 @@ nav .fa {
     width: 80%;
     text-indent: 30px;
     text-align-last: center;
-    white-space: nowrap;
-    overflow: hidden; 
-}
-.overflow-ellipsis {
-  text-overflow: ellipsis;
-}
-.ltr > p {
-  direction: ltr;
 }
 #welcome li button {
     padding: 10px 50px;
