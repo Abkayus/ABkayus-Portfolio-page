@@ -223,7 +223,7 @@ nav .fa {
 @media only screen and (max-width: 700px) {
     nav a h1 {
         text-align: center;
-        left: 150px;
+        left: 170px;
     }
 
     .nav-bar ul li {
@@ -253,7 +253,7 @@ nav .fa {
     }
 
     nav .fa-bars {
-        margin-left: 430px;
+        margin-left: 420px;
         margin-top: 20px;
     }
 
@@ -273,7 +273,7 @@ nav .fa {
         height: 220vh;
     }
 }
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
  nav a h1 {
         text-align: center;
         left: 100px;
@@ -462,7 +462,7 @@ nav .fa {
         font-weight: bold;
     }
 }
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
   #welcome {
         position: relative;
         padding-bottom: 10px;
@@ -654,7 +654,7 @@ nav .fa {
         padding-left: 50px;
     }
 }
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
  .About {
         display: inline-flex;
     }
@@ -1245,7 +1245,7 @@ nav .fa {
         background-color: #009688;
     }
 }
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
   .resume {
         background-color: rgb(169, 168, 168);
         height: 3000px;
@@ -1749,7 +1749,7 @@ nav .fa {
         font-size: 1em;
     }
 }
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
 .testimonials {
         display: inline-block;
         width: 100%;
